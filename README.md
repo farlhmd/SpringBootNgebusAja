@@ -27,6 +27,9 @@ Github&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : [Spring Boot Ngebus Aja!](https://g
 `Maven` `Spring Tools 4` `Postman` `Swagger`
 
 `IDE (Tested in VSCode)`
-![Contoh](https://github.com/farlhmd/hacktiv8_java_springboot/blob/main/src/sesi11/dinoDB.png)
+
+## Screenshots
+1. Semua End Point
+![Contoh](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/src/main/resources/screenshots/All%20End%20Point.png)
 
 
