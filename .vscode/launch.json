@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootNgebusAjaApplication<SpringBootNgebusAja>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.farlhmd.spring.SpringBootNgebusAjaApplication",
+            "projectName": "SpringBootNgebusAja",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
