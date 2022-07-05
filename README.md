@@ -27,29 +27,29 @@ Untuk dapat melihat file ini dengan maksimal, dapat mengunjungi:[ Doc Ngebus Aja
 `IDE (Tested in VSCode)`
 
 ## Screenshots
-1. Semua End Point
+### 1. Semua End Point
 ![Semua](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/Semua%20End%20Point.png)
 
-2. Agency controller
+### 2. Agency controller
 ![Agency](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/endpoints/1.png)
 
-3. Auth controller
+### 3. Auth controller
 ![Auth](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/endpoints/2.png)
 
-4. Bus controller
+### 4. Bus controller
 ![Bus](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/endpoints/3.png)
 
-5. Stop controller
+### 5. Stop controller
 ![Stop](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/endpoints/4.png)
 
-6. Ticket controller
+### 6. Ticket controller
 ![Ticket](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/endpoints/5.png)
 
-7. Trip controller
+### 7. Trip controller
 ![Trip](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/endpoints/6.png)
 
-8. Trip Schedule controller
+### 8. Trip Schedule controller
 ![Trip Schedule](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/endpoints/7.png)
 
-9. User controller
+### 9. User controller
 ![User](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/endpoints/8.png)
