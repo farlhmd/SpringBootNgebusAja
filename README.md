@@ -6,18 +6,16 @@ Github&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : [Spring Boot Ngebus Aja!](https://g
 
 
 
-## Demo
-[Deployed App]()
-
-
 ## Api endpoint
 
 1. agency-controller
 2. auth-controller
 3. bus-controller
 4. stop-controller
-5. trip-controller
-6. user-controller 
+5. ticket-controller
+6. trip-controller
+7. trip-schedule-controller
+8. user-controller 
 
 
 
@@ -30,6 +28,6 @@ Github&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : [Spring Boot Ngebus Aja!](https://g
 
 ## Screenshots
 1. Semua End Point
-![Contoh](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/src/main/resources/screenshots/All%20End%20Point.png)
+![Contoh](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/src/main/resources/screenshots/Semua%20End%20Point.png)
 
 

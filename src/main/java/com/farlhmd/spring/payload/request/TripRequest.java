@@ -9,31 +9,30 @@ import io.swagger.annotations.ApiModelProperty;
 public class TripRequest {
 	@ApiModelProperty(hidden = true)
 	private Long id;
-	
+
 	private int fare;
-	
+
 	private int journeyTime;
-	
+
 	private Long sourceStopId;
-	
+
 	private Long destStopId;
-	
+
 	private Long busId;
-	
+
 	private Long agencyId;
-	
-	public TripRequest() {
+
+	public TripRequest(Long id2, int fare2, int journeyTime2, Long id3, Long id4, Long id5, Long id6) {
+		// TODO Auto-generated constructor stub
 	}
 
-	public TripRequest(Long id, @NotNull int fare, @NotBlank int journeyTime, @NotBlank Long agencyId,
-			@NotBlank Long busId, @NotBlank Long sourceStopId, @NotBlank Long destStopId) {
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
 		this.id = id;
-		this.fare = fare;
-		this.journeyTime = journeyTime;
-		this.agencyId = agencyId;
-		this.busId = busId;
-		this.sourceStopId = sourceStopId;
-		this.destStopId = destStopId;
 	}
 
 	public int getFare() {
@@ -83,4 +82,5 @@ public class TripRequest {
 	public void setAgencyId(Long agencyId) {
 		this.agencyId = agencyId;
 	}
+
 }

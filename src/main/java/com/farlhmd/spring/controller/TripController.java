@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,6 +21,7 @@ import com.farlhmd.spring.model.Bus;
 import com.farlhmd.spring.model.Stop;
 import com.farlhmd.spring.model.Trip;
 import com.farlhmd.spring.payload.request.TripRequest;
+import com.farlhmd.spring.payload.response.MessageResponse;
 import com.farlhmd.spring.repository.AgencyRepository;
 import com.farlhmd.spring.repository.BusRepository;
 import com.farlhmd.spring.repository.StopRepository;
@@ -61,5 +63,23 @@ public class TripController {
 	public ResponseEntity<?> getTripByAgencyId(@PathVariable(value = "id") Long id) {
 		List<Trip> trip = tripRepository.findByAgencyId(id);
 		return ResponseEntity.ok(trip);
+	}
+	
+	@DeleteMapping("/{id}")
+	@ApiOperation(value = "", authorizations = { @Authorization(value = "apiKey") })
+	@PreAuthorize("hasRole('ADMIN')")
+	public ResponseEntity<?> deleteTrip(@PathVariable(value = "id") Long id) {
+		String result = "";
+		try {
+			tripRepository.findById(id).get();
+
+			result = "Success Deleting Data with Id: " + id;
+			tripRepository.deleteById(id);
+
+			return ResponseEntity.ok(new MessageResponse<Trip>(true, result));
+		} catch (Exception e) {
+			result = "Data with Id: " + id + " Not Found";
+			return ResponseEntity.ok(new MessageResponse<Trip>(false, result));
+		}
 	}
 }
