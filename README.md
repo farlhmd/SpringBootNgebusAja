@@ -28,6 +28,9 @@ Github&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : [Spring Boot Ngebus Aja!](https://g
 
 ## Screenshots
 1. Semua End Point
-![Contoh](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/src/main/resources/screenshots/Semua%20End%20Point.png)
+![Semua](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/Semua%20End%20Point.png)
+
+2. Agency controller
+![Contoh](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/Semua%20End%20Point.png)
 
 
