@@ -3,7 +3,7 @@ Nama &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: Muhammad Farhan Ilhamdi\
 Kode peserta : JVSB001ONL014 \
 Github&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : [Spring Boot Ngebus Aja!](https://github.com/farlhmd/SpringBootNgebusAja)
 
-Untuk dapat melihat file ini dengan maksimal, dapat mengunjungi:[ Doc Ngebus Aja!](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/README.md).
+Untuk dapat melihat Dokumentasi aplikasi ini dengan maksimal, harap kunjungi: [Doc Ngebus Aja!](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/README.md).
 
 
 ## Run Locally
