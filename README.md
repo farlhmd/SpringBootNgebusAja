@@ -8,22 +8,25 @@ Untuk dapat melihat file ini dengan maksimal, dapat mengunjungi:[ Doc Ngebus Aja
 
 ## Run Locally
 
-Clone the project
+1. Clone the project
 
 ```bash
   git clone https://github.com/farlhmd/SpringBootNgebusAja.git
 ```
 
-Mengganti Direktori
+2. Mengganti Direktori
 
 ```bash
   cd SpringBootNgebusAja
 ```
 
-Start MySQL Server
+3. Start MySQL Server
 
-Create Database: db_ngebus_aja
+4. Create Database: db_ngebus_aja atau import file .sql: [db_ngebus_aja.sql](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/database/db_ngebus_aja.sql)
 
+5. Run as Spring Boot App
+
+6. Akses Swagger pada browser dengan: http://localhost:8081/swagger-ui.html#/
 
 
 ## Api endpoint(s)
