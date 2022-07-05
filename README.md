@@ -50,6 +50,12 @@ Postman Download: [Postman](https://www.postman.com/downloads/)
 
 json file: [NgebusAja-API](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Postman/Final%20Spring%20Boot%20Ngebus%20Aja!.postman_collection.json)
 
+## Deployment
+#### Aplikasi ini telah di deploy pada [Heroku](https://heroku.com):
+![Heroku Deployed](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/Heroku%20Deployed.png)
+
+Link Demo: [Ngebus Aja!](https://springboot-ngebusaja.herokuapp.com)
+
 ## Screenshots
 ### 1. Semua End Point
 ![Semua](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/Semua%20End%20Point.png)
