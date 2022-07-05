@@ -20,11 +20,10 @@ Mengganti Direktori
   cd SpringBootNgebusAja
 ```
 
-Start MySQL
+Start MySQL Server
 
-```bash
-  npm run start
-```
+Create Database: db_ngebus_aja
+
 
 
 ## Api endpoint(s)
@@ -37,7 +36,6 @@ Start MySQL
 6. trip-controller
 7. trip-schedule-controller
 8. user-controller 
-
 
 
 ## Dependencies
