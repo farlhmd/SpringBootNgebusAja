@@ -6,7 +6,28 @@ Github&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : [Spring Boot Ngebus Aja!](https://g
 Untuk dapat melihat file ini dengan maksimal, dapat mengunjungi:[ Doc Ngebus Aja!](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/README.md).
 
 
-## Api endpoint
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/farlhmd/SpringBootNgebusAja.git
+```
+
+Mengganti Direktori
+
+```bash
+  cd SpringBootNgebusAja
+```
+
+Start MySQL
+
+```bash
+  npm run start
+```
+
+
+## Api endpoint(s)
 
 1. agency-controller
 2. auth-controller
