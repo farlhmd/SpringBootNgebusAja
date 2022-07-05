@@ -45,6 +45,11 @@ Create Database: db_ngebus_aja
 
 `IDE (Tested in VSCode)`
 
+## API Tested on Postman
+Postman Download: [Postman](https://www.postman.com/downloads/)
+
+json file: [NgebusAja-API](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Postman/Final%20Spring%20Boot%20Ngebus%20Aja!.postman_collection.json)
+
 ## Screenshots
 ### 1. Semua End Point
 ![Semua](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/Semua%20End%20Point.png)
