@@ -57,7 +57,7 @@ json file: [NgebusAja-API](https://github.com/farlhmd/SpringBootNgebusAja/blob/m
 #### Aplikasi ini telah di deploy pada [Heroku](https://heroku.com):
 ![Heroku Deployed](https://github.com/farlhmd/SpringBootNgebusAja/blob/main/Screenshots/Heroku%20Deployed.png)
 
-Link Demo: [Ngebus Aja!](https://springboot-ngebusaja.herokuapp.com)
+Link Demo: [Ngebus Aja!](https://springboot-ngebus-aja.herokuapp.com/swagger-ui.html#/)
 
 ## Screenshots
 ### 1. Semua End Point
